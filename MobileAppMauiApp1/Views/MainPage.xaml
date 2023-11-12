@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileAppMauiApp1.Views.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <!--<Image
+                Source="dotnet_bot.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Hello, World!"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Welcome to .NET Multi-platform App UI"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Click me"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center" />-->
+
+            
+            <Label 
+                Text="Молитвенник для бней Ноах" 
+                HorizontalOptions="Center" 
+                FontAttributes ="Bold" 
+                Margin="0,10,0,0" />
+            <Label 
+                Text="19 сентября 2023 года" 
+                HorizontalOptions="Center"/>
+            <Label 
+                Text="4 тишрея 5784 года" 
+                HorizontalOptions="Center"/>
+            <Label 
+                Text="Ближайшая молитва" 
+                HorizontalOptions="Center" 
+                FontAttributes ="Bold"/>
+            <Label 
+                Text="С 12:00 до 18:00" 
+                HorizontalOptions="Center"/>
+
+            <Button 
+                Margin="0,10,0,0" Text="Дневная молитва / Минха"
+                BackgroundColor="{StaticResource Primary}"
+                TextColor="White"
+                Clicked="ButtonClickedMinha"/>
+
+            <Label 
+                Text="Все молитвы" HorizontalOptions="Center" FontAttributes ="Bold"/>
+
+            <Button 
+                Margin="0,10,0,0" Text="Пробуждение утром"
+                BackgroundColor="{StaticResource Primary}"
+                TextColor="White"
+                Clicked="ButtonClickedMorningAwakening"/>
+            
+            <Button 
+                Margin="0,10,0,0" Text="Утренняя молитва / Шахарит"
+                BackgroundColor="{StaticResource Primary}"
+                TextColor="White" />
+            
+            <Button 
+                Margin="0,10,0,0" Text="Дневная молитва / Минха"
+                BackgroundColor="{StaticResource Primary}"
+                TextColor="White"
+                Clicked="ButtonClickedMinha"/>
+            
+            <Button 
+                Margin="0,10,0,0" Text="Вечерняя молитва / Арвит"
+                BackgroundColor="{StaticResource Primary}"
+                TextColor="White" />
+            
+            <Button 
+                Margin="0,10,0,0" Text="Чтение Шма перед сном"
+                BackgroundColor="{StaticResource Primary}"
+                TextColor="White" />
+
+            
+            <Button 
+                Margin="0,50,0,50" Text="Направление молитвы 🧭"
+                BackgroundColor="{StaticResource Primary}"
+                TextColor="White" />
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
