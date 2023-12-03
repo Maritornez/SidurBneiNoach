@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileAppMauiApp1.Views.AboutProgram"
+             Title="О программе">
+    <VerticalStackLayout
+        Spacing="25"
+        Padding="10,0">
+        
+        <Label 
+            Text="Noahide Sidur"
+            HorizontalOptions="Center" />
+        
+        <Label 
+            Text="Молитвенник для Ноахидов"
+            HorizontalOptions="Center" />
+
+        <Image
+            Source="magen_david.png"/>
+        
+        <Label
+            Text="Разработчик: Потонов Г.Е."
+            HorizontalOptions="Center" />
+
+        <Label
+            Text="The GNU General Public License v3.0"
+            HorizontalOptions="Center" />
+        
+        <Label
+            Text="2024"
+            HorizontalOptions="Center" />
+
+
+    </VerticalStackLayout>
+</ContentPage>

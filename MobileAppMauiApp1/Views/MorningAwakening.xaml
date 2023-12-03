@@ -6,7 +6,7 @@
     <ScrollView>
         <VerticalStackLayout
             Spacing="25"
-            Padding="30,0">
+            Padding="10,0">
             
             <Label 
                 Text="◊ ПРОБУЖДЕНИЕ УТРОМ"
@@ -30,6 +30,8 @@
 
             <Image 
                 Source="morning_awakening.png"/>
+            
+            
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

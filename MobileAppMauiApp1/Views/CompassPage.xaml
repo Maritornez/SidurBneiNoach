@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileAppMauiApp1.Views.CompassPage"
+             Title="Компас">
+    <VerticalStackLayout
+        Spacing="25"
+        Padding="10,0">
+        <Label
+            Text="Компас показывает направление молитвы на Стену Плача В Иерусалиме"
+            FontSize="12"
+            HorizontalOptions="Center"/>
+
+        <!--<Label
+            Text="Label"
+            x:Name="LabelDebug"/>
+
+        <Label
+            Text="Label"
+            x:Name="LabelDebug1"/>-->
+
+        <Grid>
+
+            <Image
+                Source="compass.png"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"/>
+
+            <Image
+                Source="arrow.png"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="75"
+                x:Name="ImageArrow"/>
+            
+        </Grid>
+        
+    </VerticalStackLayout>
+</ContentPage>

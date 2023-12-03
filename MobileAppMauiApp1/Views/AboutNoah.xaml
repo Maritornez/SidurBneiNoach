@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileAppMauiApp1.Views.AboutNoah"
+             Title="О Бней Ноах">
+    <VerticalStackLayout
+        Spacing="25"
+        Padding="10,0">
+        
+        <Label 
+            Text="Бней Но́ах (ивр. בְּנֵי נוֹחַ‎ — «Потомки Ноя», Ноахи́ды) — современное монотеистическое религиозное движение, пропагандирующее «иудаизм для неевреев». Согласно воззрениям иудаизма, для исполнения Божьей воли неевреи не обязаны переходить в иудаизм, однако на них возлагается обязанность соблюдения «Семи законов потомков Ноя». Формально ивритский термин «Бней Ноах» относится ко всем неевреям, поскольку все люди, согласно Торе, являются потомками Ноя (к еврейскому народу применяется термин «Бней Исраэ́ль», ивр. בְּנֵי יִשְׂרָאֵל‎). Однако в настоящее время он всё чаще используется в отношении тех неевреев, которые добровольно присоединились к еврейскому Завету и взяли на себя соблюдение «Семи заповедей потомков Ноя» согласно представлениям иудаизма. "/>
+
+        <Label
+            Text="Мировой Центр Ноахидов – Брит Олам"
+            TextDecorations="Underline"
+            TextColor="{StaticResource Blue100Accent}">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnLinkTapped_BritOlam" />
+            </Label.GestureRecognizers>
+        </Label>
+    </VerticalStackLayout>
+</ContentPage>

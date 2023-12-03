@@ -6,7 +6,7 @@
     <ScrollView>
         <VerticalStackLayout
             Spacing="25"
-            Padding="30,0"
+            Padding="10,0"
             VerticalOptions="Center">
 
             <!--<Image
@@ -42,9 +42,11 @@
                 FontAttributes ="Bold" 
                 Margin="0,10,0,0" />
             <Label 
+                x:Name="currentGregorianDateLabel"
                 Text="19 сентября 2023 года" 
                 HorizontalOptions="Center"/>
             <Label 
+                x:Name="currentHebrevDateLabel"
                 Text="4 тишрея 5784 года" 
                 HorizontalOptions="Center"/>
             <Label 
@@ -59,7 +61,7 @@
                 Margin="0,10,0,0" Text="Дневная молитва / Минха"
                 BackgroundColor="{StaticResource Primary}"
                 TextColor="White"
-                Clicked="ButtonClickedMinha"/>
+                Clicked="ButtonMinha_Clicked"/>
 
             <Label 
                 Text="Все молитвы" HorizontalOptions="Center" FontAttributes ="Bold"/>
@@ -68,18 +70,19 @@
                 Margin="0,10,0,0" Text="Пробуждение утром"
                 BackgroundColor="{StaticResource Primary}"
                 TextColor="White"
-                Clicked="ButtonClickedMorningAwakening"/>
+                Clicked="ButtonMorningAwakening_Clicked"/>
             
             <Button 
                 Margin="0,10,0,0" Text="Утренняя молитва / Шахарит"
                 BackgroundColor="{StaticResource Primary}"
-                TextColor="White" />
+                TextColor="White"
+                Clicked="ButtonShacharit_Clicked"/>
             
             <Button 
                 Margin="0,10,0,0" Text="Дневная молитва / Минха"
                 BackgroundColor="{StaticResource Primary}"
                 TextColor="White"
-                Clicked="ButtonClickedMinha"/>
+                Clicked="ButtonMinha_Clicked"/>
             
             <Button 
                 Margin="0,10,0,0" Text="Вечерняя молитва / Арвит"
@@ -95,7 +98,8 @@
             <Button 
                 Margin="0,50,0,50" Text="Направление молитвы 🧭"
                 BackgroundColor="{StaticResource Primary}"
-                TextColor="White" />
+                TextColor="White"
+                Clicked="ButtonCompas_Clicked"/>
 
 
         </VerticalStackLayout>
