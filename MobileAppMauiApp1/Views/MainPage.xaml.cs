@@ -75,10 +75,25 @@ namespace MobileAppMauiApp1.Views
             await Navigation.PushAsync(new Minha());
         }
 
+        private async void ButtonAvrit_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Avrit());
+        }
+
+        private async void ButtonShma_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Shma());
+        }
+
+
         private async void ButtonCompas_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new CompassPage());
         }
 
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

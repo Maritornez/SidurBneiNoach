@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileAppMauiApp1.Views.Avrit"
+             Title="Вечерняя молитва">
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="10,0">
+
+            <Label
+                Text="◊ ВЕЧЕРНЯЯ МОЛИТВА / АРВИТ"
+                HorizontalOptions="Center"
+                Margin="0,10,0,0" />
+
+            <Label 
+                Text="Псалом 46,8:"
+                FontAttributes="Italic"
+                FontSize="12"/>
+
+            <Label
+                Text="Господь воинств с нами! Бог яакова – защитник нам! Сэла!"/>
+            
+            <Label 
+                Text="Псалом 84,13:"
+                FontAttributes="Italic"
+                FontSize="12"/>
+
+            <Label
+                Text="Господь воинств, счастлив человек, на Тебя полагающийся!"/>
+
+            <Label 
+                Text="Псалом 20,10:"
+                FontAttributes="Italic"
+                FontSize="12"/>
+
+            <Label
+                Text="Даруй победу, Господь! да услышит нас Царь, когда мы взываем кНему"/>
+
+            <Label 
+                Text="Псалом 78,35 – напоминание о милосердии, и просьба об избавлении:"
+                FontAttributes="Italic"
+                FontSize="12"/>
+
+            <Label
+                Text="А Он, милосердный, прощал грех, не погубил, многократно отводил гнев Свой, не дал пробудиться всей ярости Своей."/>
+
+            <Label 
+                Text="Псалом 20,10:"
+                FontAttributes="Italic"
+                FontSize="12"/>
+
+            <Label
+                Text="Даруй победу, Господь! да услышит нас Царь, когда мы взываем к Нему."/>
+
+            <Label
+                Text="..."/>
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

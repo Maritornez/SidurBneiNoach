@@ -50,11 +50,16 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\arrow.png" />
+	  <None Remove="Resources\Images\baruh_shem.png" />
 	  <None Remove="Resources\Images\compass.png" />
 	  <None Remove="Resources\Images\MagenDavid.png" />
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="FirebaseDatabase.net" Version="4.2.0" />
+		<PackageReference Include="FirebaseStorage.net" Version="1.0.3" />
+		<PackageReference Include="Google.Apis" Version="1.64.0" />
+		<PackageReference Include="Google.Apis.Discovery.v1" Version="1.64.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 
@@ -63,6 +68,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\AboutProgram.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Avrit.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\CompassPage.xaml">
@@ -75,6 +83,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Shacharit.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Shma.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

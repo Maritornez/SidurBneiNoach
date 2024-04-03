@@ -5,8 +5,8 @@ namespace MobileAppMauiApp1.Views;
 
 public partial class CompassPage : ContentPage
 {
-    Location deviceLocation;
-    Location wallOfTears = new Location(31.7767166, 35.2344924);
+    private Location _deviceLocation;
+    private Location _wallOfTears = new Location(31.7767166, 35.2344924);
 
 
     public CompassPage()
@@ -18,8 +18,8 @@ public partial class CompassPage : ContentPage
 
     private async void UpdateLocationAsync()
     {
-        deviceLocation = await GetCurrentLocation();
-        //LabelDebug.Text = $"Latitude: {deviceLocation.Latitude}, Longitude: {deviceLocation.Longitude}, Altitude: {deviceLocation.Altitude}";
+        _deviceLocation = await GetCurrentLocation();
+        //LabelDebug.Text = $"Latitude: {_deviceLocation.Latitude}, Longitude: {_deviceLocation.Longitude}, Altitude: {_deviceLocation.Altitude}";
     }
 
     private void ToggleCompass()
@@ -45,8 +45,8 @@ public partial class CompassPage : ContentPage
     private void Compass_ReadingChanged(object sender, CompassChangedEventArgs e)
     {
         // Вычисление угла между текущим местоположением и целевыми координатами
-        double angle = CalculateAngle( DegreesToRadians(/*deviceLocation.Latitude*/ 32.801304),  DegreesToRadians(/*deviceLocation.Longitude*/  36.333685),
-            DegreesToRadians(wallOfTears.Latitude), DegreesToRadians(wallOfTears.Longitude));
+        double angle = CalculateAngle( DegreesToRadians(/*_deviceLocation.Latitude*/ 32.801304),  DegreesToRadians(/*_deviceLocation.Longitude*/  36.333685),
+            DegreesToRadians(_wallOfTears.Latitude), DegreesToRadians(_wallOfTears.Longitude));
 
         // Обновление угла поворота компаса
         //LabelDebug1.Text = (angle + e.Reading.HeadingMagneticNorth * (-1)).ToString();

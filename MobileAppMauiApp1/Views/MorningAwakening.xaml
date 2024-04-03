@@ -12,26 +12,49 @@
                 Text="◊ ПРОБУЖДЕНИЕ УТРОМ"
                 HorizontalOptions="Center"
                 Margin="0,10,0,0" />
-            
+
+            <!--<Label
+                x:Name="MorningAwakeningSleepMorning"
+                HorizontalOptions="Center"
+                Margin="0,10,0,0" />-->
+
             <Label 
                 Text="► Благодарность Богу по проБуждении / Модэ́ ани́"
                 HorizontalOptions="Center"/>
+
+            <!--<Label
+                x:Name="MorningAwakeningSleepThanks1"
+                HorizontalOptions="Center"/>-->
 
             <Label 
                 Text="Проснувшись, человек должен вознести благодарность Создателю за свое возвращение к жизни. Следующую фразу можно произносить еще в постели:"
                 FontAttributes="Italic"
                 FontSize="12"/>
 
+            <!--<Label
+                x:Name="MorningAwakeningSleep"
+                FontAttributes="Italic"
+                FontSize="12"/>-->
+            
             <Label
                 Text="БЛАГОДАРЮ ТЕБЯ, ЦАРЬ ЖИВОЙ И СУЩИЙ, ЗА ТО, ЧТО ТЫ ПО МИЛОСТИ СВОЕЙ ВОЗВРАТИЛ МНЕ ДУШУ МОЮ. ВЕЛИКА ВЕРНОСТЬ ТВОЯ."/>
 
+            <!--<Label
+                x:Name="MorningAwakeningLabelThanks"/>-->
+
             <Label
                 Text="Модэ́ (женщина произносит: Мода́) ани лефане́ха, Ме́лех хай ве-кая́м, ше-hэхэза́рта би нишмати́ бе-хемла́, раба́ эмунате́ха."/>
+            
+            <!--<Label
+                x:Name="MorningAwakeningLabelModa"/>-->
 
             <Image 
                 Source="morning_awakening.png"/>
-            
-            
+
+
+            <Label
+                Text="..."/>
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

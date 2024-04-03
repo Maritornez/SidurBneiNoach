@@ -87,12 +87,14 @@
             <Button 
                 Margin="0,10,0,0" Text="Вечерняя молитва / Арвит"
                 BackgroundColor="{StaticResource Primary}"
-                TextColor="White" />
+                TextColor="White" 
+                Clicked="ButtonAvrit_Clicked"/>
             
             <Button 
                 Margin="0,10,0,0" Text="Чтение Шма перед сном"
                 BackgroundColor="{StaticResource Primary}"
-                TextColor="White" />
+                TextColor="White"
+                Clicked="ButtonShma_Clicked"/>
 
             
             <Button 
