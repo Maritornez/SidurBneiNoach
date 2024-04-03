@@ -15,6 +15,10 @@
 
 ![изображение](https://github.com/Maritornez/SidurBneiNoach/assets/62441435/f3d56c2f-46ab-4d06-ad27-1ac443a1d5b5)
 
+![изображение](https://github.com/Maritornez/SidurBneiNoach/assets/62441435/84bec23c-d484-45e6-8b03-eb7bb25bdb42)
+
+![изображение](https://github.com/Maritornez/SidurBneiNoach/assets/62441435/87e20029-1a85-406d-a263-39aac8e236ba)
+
 ![изображение](https://github.com/Maritornez/SidurBneiNoach/assets/62441435/196c62ae-4d4f-4a7a-92e0-1efff49c3750)
 
 ![изображение](https://github.com/Maritornez/SidurBneiNoach/assets/62441435/b9d30b85-df39-42e3-a14c-9aa694b830b5)
